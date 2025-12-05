@@ -11,7 +11,7 @@ set -ouex pipefail
 
 dnf5 install -y kernel-devel kernel-headers
 dnf5 -y copr enable mulderje/facetimehd-kmod 
-dnf5 install -y facetimehd-kmod
+# dnf5 install -y facetimehd-kmod
 dnf5 -y copr disable mulderje/facetimehd-kmod
 dnf5 install -y broadcom-wl
 # Use a COPR Example:
